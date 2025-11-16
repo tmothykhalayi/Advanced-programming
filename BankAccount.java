@@ -62,9 +62,9 @@ public void displayAccountInfo() {
             System.out.println("\n--- Bank Operations ---");
             System.out.println("1. Deposit");
             System.out.println("2. Withdraw");
-            System.out.println("3. Check Balance");
-            System.out.println("4. Display Account Info");
-            System.out.println("5. Exit");
+            System.out.println("3. check Balance");
+            System.out.println("4. Display Account running balance");
+            System.out.println("5. Out");
             System.out.print("Choose an option: ");
             int choice = sc.nextInt();
             switch (choice) {
