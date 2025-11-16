@@ -11,21 +11,8 @@ Operators, data types
 
 OOP recap: class, object, encapsulation, abstraction
 
-✅ Project 1.1 — Java System Environment Scanner
 
-Build a program that displays:
-
-Java version
-
-OS name
-
-User directory
-
-Available memory
-
-Classpath
-
-✅ Project 1.2 — Student Bio Profile (OOP Beginner Project)
+✅ Project 1.1 — Student Bio Profile (OOP Beginner Project)
 
 Create a class Student containing:
 
