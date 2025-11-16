@@ -32,7 +32,12 @@ Create a class Student containing:
 name, regNo, email, year
 
 constructor and getters
-Program prints the student’s profile in formatted output.
+Program prints the student's profile in formatted output.
+
+✅ Additional Practice — Bank Account Simulation
+
+Concepts: classes, objects, constructors
+Operations: deposit, withdraw, check balance.
 
 WEEK 2 — Program Control, Objects & Classes, STL Concepts
 Topics
@@ -65,6 +70,16 @@ calculate total, average, grade
 
 store results inside a class
 
+✅ Additional Practice — Number Guessing Game
+
+Concepts: random numbers, loops, conditionals
+The computer picks a number; the user guesses.
+
+✅ Additional Practice — Temperature Converter
+
+Concepts: methods, arithmetic
+Convert °C ↔ °F ↔ K.
+
 WEEK 3 — Inheritance & Polymorphism
 Topics
 
@@ -94,6 +109,11 @@ Compute salary polymorphically.
 Abstract class Shape → Circle, Rectangle, Triangle
 Each overrides area() method.
 
+✅ Additional Practice — Library Management System (CLI)
+
+Concepts: OOP, ArrayList, file storage
+Features: add books, borrow/return, view catalog.
+
 WEEK 4 — Exception Handling & Basic Multithreading
 Topics
 
@@ -121,6 +141,11 @@ negative amounts
 
 Run 3 threads counting numbers simultaneously.
 Use Thread and Runnable.
+
+✅ Additional Practice — Quiz Application
+
+Concepts: objects, arrays, file reading, exception handling
+Read questions from a file, compute score.
 
 WEEK 5 — CAT 1
 WEEK 6 — Operator Overloading Concepts (Java Simulation)
@@ -183,6 +208,11 @@ Implement a generic bubble sort or insertion sort method:
 <T extends Comparable<T>>
 void sort(T[] array)
 
+✅ Additional Practice — E-Commerce Console App
+
+Concepts: design patterns, collections, generics
+Cart, checkout, product catalog.
+
 WEEK 8 — Threads, Processes, Synchronization
 Topics
 
@@ -211,6 +241,11 @@ Synchronization (wait() & notify())
 Scan a directory using threads:
 
 each thread searches a specific file type (e.g., .txt, .pdf, .java)
+
+✅ Additional Practice — Multithreaded Web Crawler
+
+Concepts: threads, networking, synchronization
+Fetch URLs concurrently and store results.
 
 WEEK 9 — Advanced File Handling
 Topics
@@ -248,6 +283,11 @@ file size
 
 last modified date
 
+✅ Additional Practice — File Encryption/Decryption Tool
+
+Concepts: file I/O, hashing, encryption algorithms
+Securely encode and decode files.
+
 WEEK 10 — CAT 2
 WEEK 11 — Remote Method Invocation (RMI) & Sockets
 Topics
@@ -278,6 +318,11 @@ Client invokes remote methods.
 Client ↔ Server communication using sockets.
 Text messages exchanged in real time.
 
+✅ Additional Practice — Advanced Chat Application
+
+Concepts: networking, multithreading, sockets
+Multiple users can chat in real time with username support.
+
 WEEK 12 — GUI Programming with Swing / Component-Based Development
 Topics
 
@@ -303,6 +348,16 @@ table for displaying students
 
 Buttons for digits & operations
 Use ActionListener for all events.
+
+✅ Additional Practice — Task Management Desktop App (JavaFX)
+
+Concepts: GUI, data persistence, events
+Add tasks, set deadlines, filter tasks.
+
+✅ Additional Practice — Expense Tracker App
+
+Concepts: file I/O + GUI
+Add expenses, monthly summaries, charts.
 
 WEEK 13 — Databases, JDBC, AWT, Swing + GUI Database Projects
 Topics
@@ -340,6 +395,21 @@ Login
 
 Store encrypted passwords
 
+✅ Additional Practice — Student Registration System (Enhanced)
+
+Concepts: JDBC + MySQL, GUI
+Full CRUD operations with advanced search and reporting.
+
+✅ Additional Practice — Online Banking System
+
+Concepts: MVC architecture, JDBC, OOP, GUI
+Account creation, transactions, user login.
+
+✅ Additional Practice — Hospital Management System
+
+Concepts: Swing GUI, database, CRUD
+Patient registration, doctor scheduling, appointments.
+
 WEEK 14 — Revision & Final Exam
 Revision Activities
 
@@ -365,36 +435,12 @@ Exception handling
 
 ---
 
-## Additional Java Project Ideas (Beginner → Advanced)
+## Additional Advanced Projects (For Extra Practice)
 
-**BEGINNER-LEVEL PROJECTS**
-Covers: Variables, loops, arrays, methods, conditionals, classes
+✅ ATM Simulation System — OOP, encapsulation, loops, file handling
 
-1. Simple Calculator (CLI) — input/output, methods, switch statements
-2. Student Grade Calculator — arrays, loops
-3. Number Guessing Game — random numbers, loops, conditionals
-4. Temperature Converter — methods, arithmetic
-5. Bank Account Simulation — classes, objects, constructors
+PIN authentication, balance checks, mini-statements, transaction history.
 
-**INTERMEDIATE-LEVEL PROJECTS**
-Covers: OOP, collections, file handling, exceptions
+✅ REST API Backend with Spring Boot — enterprise Java
 
-6. Library Management System (CLI) — OOP, ArrayList, file storage
-7. Employee Payroll System — inheritance, polymorphism
-8. Inventory Management System — ArrayList/HashMap
-9. Quiz Application — objects, arrays, file reading
-10. ATM Simulation System — OOP, encapsulation, loops
-
-**ADVANCED-LEVEL PROJECTS**
-Covers: multithreading, JDBC, networking, GUI (Swing/JavaFX), design patterns
-
-11. Student Registration System (with Database) — JDBC + MySQL
-12. Chat Application (Socket Programming) — networking, multithreading
-13. Online Banking System — MVC architecture, JDBC, OOP
-14. Hospital Management System — Swing GUI, database, CRUD
-15. File Encryption/Decryption Tool — hashing, encryption algorithms
-16. E-Commerce Console App — design patterns, collections
-17. Task Management Desktop App (JavaFX) — GUI, data persistence
-18. Multithreaded Web Crawler — threads, networking
-19. Expense Tracker App — file I/O + GUI
-20. REST API Backend with Spring Boot — enterprise Java
+Users, authentication, CRUD endpoints, modern Java development.
