@@ -136,7 +136,6 @@ Read questions from a file, compute score.
 
 WEEK 5 — CAT 1
 WEEK 6 — Operator Overloading Concepts (Java Simulation)
-Topics
 
 What is operator overloading?
 
@@ -166,7 +165,6 @@ repeat()
 concatNumbers()
 
 WEEK 7 — Function Templates & Class Templates (Generics)
-Topics
 
 Generic classes
 
