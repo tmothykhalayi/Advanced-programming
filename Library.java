@@ -122,6 +122,7 @@ class LibraryManager {
     }
 
     // Load from file
+    @SuppressWarnings("unchecked")
     public void loadFromFile() {
         try (ObjectInputStream in = new ObjectInputStream(new FileInputStream(fileName))) {
             books = (ArrayList<Book>) in.readObject();

@@ -94,6 +94,7 @@ class EmployeeManager {
     }
 
     // Load from file
+    @SuppressWarnings("unchecked")
     public void loadFromFile() {
         try (ObjectInputStream in = new ObjectInputStream(new FileInputStream(fileName))) {
             employees = (ArrayList<Employee>) in.readObject();
